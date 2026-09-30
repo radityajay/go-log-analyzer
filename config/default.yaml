@@ -1,0 +1,14 @@
+# Logalyzer default configuration
+scan:
+  # Log levels to filter (comma-separated)
+  levels:
+    - ERROR
+    - FATAL
+  # Number of concurrent workers
+  workers: 4
+
+generate:
+  # Default number of lines to generate
+  lines: 100000
+  # Default output file
+  output: sample.log
